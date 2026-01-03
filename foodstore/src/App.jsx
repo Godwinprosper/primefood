@@ -5,9 +5,11 @@ import { HomePage } from './pages/home/HomePage'
 function App() {
 
   return (
-   <Routes>
-    <Route path='/' element={<HomePage/>} />
-   </Routes>
+    <div className="App">
+      <Routes>
+        <Route path='/' element={<HomePage/>} />
+      </Routes>
+    </div>  
   )
 }
 

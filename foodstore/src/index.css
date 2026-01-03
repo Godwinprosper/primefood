@@ -3,25 +3,12 @@
   --default-BgColor:rgb(34, 40, 49);
   --text-color: rgb(255, 255, 255);
   --Orange:rgb(255, 190, 51);
+  --light-BgColor: rgb(245, 245, 245);
 
   /*headers section button colors */
   --button-BgColor: rgb(255, 190, 51);
 
-  /* header texts color */
-  --Htextcolor: rgb(34, 40, 49);
-  --pdName-color: rgb(255, 190, 51);
-  --card-color: rgb(241, 242, 243);
-  --BG-color: rgb(34, 40, 49);
 
-  /* button  */
-  --Btn-bgcolor2: rgb(34, 40, 49);
-  --Btn-bgColor1: rgb(255, 190, 51);
-  --section-color:rgb(34, 40, 49);
-  --category-color:rgb(34, 40, 49);
-  --hover-color: rgb(255, 190, 51);
-  --hover-bgcolor: rgba(224, 159, 20, 0.938);
-  --title-color: rgb(34, 40, 49);
-  
   --primary-fontFamily: "Dancing Script", cursive;
   --text-fontFamily: "Open Sans", sans-serif;
   /* font size */
