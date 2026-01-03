@@ -1,0 +1,45 @@
+:root {
+  /* general colors */
+  --default-BgColor:rgb(34, 40, 49);
+  --text-color: rgb(255, 255, 255);
+  --Orange:rgb(255, 190, 51);
+
+  /*headers section button colors */
+  --button-BgColor: rgb(255, 190, 51);
+
+  /* header texts color */
+  --Htextcolor: rgb(34, 40, 49);
+  --pdName-color: rgb(255, 190, 51);
+  --card-color: rgb(241, 242, 243);
+  --BG-color: rgb(34, 40, 49);
+
+  /* button  */
+  --Btn-bgcolor2: rgb(34, 40, 49);
+  --Btn-bgColor1: rgb(255, 190, 51);
+  --section-color:rgb(34, 40, 49);
+  --category-color:rgb(34, 40, 49);
+  --hover-color: rgb(255, 190, 51);
+  --hover-bgcolor: rgba(224, 159, 20, 0.938);
+  --title-color: rgb(34, 40, 49);
+  
+  --primary-fontFamily: "Dancing Script", cursive;
+  --text-fontFamily: "Open Sans", sans-serif;
+  /* font size */
+  --Btn-font: 1rem;
+  --text-font: 1rem;
+  --logo-font: 2rem;
+  --title-font: 5.6rem;
+  --subTitle-font: 4rem;
+  --pdName-font: 2.4rem;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  font-family: Roboto, Arial;
+}
