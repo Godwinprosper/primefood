@@ -1,0 +1,109 @@
+.reservation-title{
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 1rem 0rem;
+  color: var(--subTitleText-colore);
+}
+.reservation-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.reservation-form{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.form-input{
+  padding: 0.8rem;
+  font-size: 1.8rem;
+  border-radius: 0.5rem;
+  border: 2px solid ;
+  background-color: var(--light-BgColor);
+}
+.reservation-time-date{
+  display: flex;
+  gap: 1rem;
+}
+.submit-button-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.submit-reservation{
+  padding: 0.8rem 2rem;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 0.6rem;
+  color: white;
+  background-color: var(--Orange);
+  cursor: pointer;
+}
+.reservation-image-container{
+  width: 100%;
+  height: 40rem;
+}
+.reservation-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+@media (max-width: 64rem) {
+  .reservation-image-container {
+    height: 30rem; /* Reduce image height */
+  }
+  .form-input {
+    font-size: 1.6rem; /* Smaller inputs */
+    padding: 0.7rem;
+  }
+  .submit-reservation {
+    font-size: 1.4rem; /* Smaller button */
+    padding: 0.7rem 1.5rem;
+  }
+}
+
+@media (max-width: 48rem) {
+  .reservation-container {
+    grid-template-columns: 1fr; /* Stack to single column */
+    gap: 1.5rem;
+  }
+
+  .reservation-title {
+    font-size: 1.8rem;
+  }
+  .form-input {
+    font-size: 1.4rem;
+    padding: 0.6rem;
+  }
+  .submit-reservation {
+    font-size: 1.2rem;
+    padding: 0.6rem 1.2rem;
+  }
+  .reservation-form {
+    gap: 1rem; /* Reduce gap */
+  }
+}
+
+@media (max-width: 30rem) {
+  .reservation-container {
+    padding: 1rem; /* Add padding if needed */
+  }
+  .reservation-image-container {
+    display: none;
+    height: 20rem;
+  }
+
+  .form-input {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+  .submit-reservation {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  .reservation-time-date {
+    flex-direction: column; /* Stack time/date vertically */
+    gap: 0.5rem;
+  }
+}

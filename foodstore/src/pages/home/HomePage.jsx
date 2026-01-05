@@ -3,6 +3,7 @@ import { Menu } from "../../components/menu/Menu.jsx";
 import { HeroSection } from "./HeroSection";
 import { SpecialOffer } from "./SpecialOffer";
 import { About } from "../../components/About.jsx";
+import {Reservation} from "../../components/Reservation.jsx"
 import './HomePage.css'
 
 export function HomePage(){
@@ -17,6 +18,9 @@ export function HomePage(){
         <SpecialOffer/>
         <Menu/>
         <About/>
+        <div className="reservation-section">
+          <Reservation/>
+        </div>
       </div>
     </>
   )
