@@ -1,4 +1,5 @@
 import { Header } from "../../components/Header";
+import { Menu } from "../../components/menu/Menu.jsx";
 import { HeroSection } from "./HeroSection";
 import { SpecialOffer } from "./SpecialOffer";
 import './HomePage.css'
@@ -13,6 +14,7 @@ export function HomePage(){
       <div className="home-page-container">
         <HeroSection/>
         <SpecialOffer/>
+        <Menu/>
       </div>
     </>
   )

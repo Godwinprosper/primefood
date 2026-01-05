@@ -1,6 +1,6 @@
 .special-offer-section{
   padding: 2rem 5%;
-  background-color: var(--light-BgColor);
+  background-color: white;
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 3rem;

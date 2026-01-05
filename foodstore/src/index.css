@@ -4,6 +4,7 @@
   --text-color: rgb(255, 255, 255);
   --Orange:rgb(255, 190, 51);
   --light-BgColor: rgb(245, 245, 245);
+  --subTitleText-colore: rgb(34, 40, 49);
 
   /*headers section button colors */
   --button-BgColor: rgb(255, 190, 51);
@@ -17,7 +18,7 @@
   --logo-font: 2rem;
   --title-font: 5.6rem;
   --subTitle-font: 4rem;
-  --pdName-font: 2.4rem;
+  --name-font: 2.4rem;
 }
 *{
   padding: 0;
@@ -29,4 +30,5 @@ html{
 }
 body{
   font-family: Roboto, Arial;
+  margin-bottom: 1000px;
 }
