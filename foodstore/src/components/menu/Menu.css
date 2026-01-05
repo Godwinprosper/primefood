@@ -15,19 +15,19 @@
 }
 
 /* Responsive adjustments */
-@media (max-width: 1024px) {
+@media (max-width: 64rem) {
   .menu-items-container {
     grid-template-columns: 1fr 1fr 1fr; /* 3 columns for tablets */
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .menu-items-container {
     grid-template-columns: 1fr 1fr; /* 2 columns for smaller tablets */
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 30rem) {
   .menu-items-container {
     grid-template-columns: 1fr; /* 1 column for mobile */
   }
