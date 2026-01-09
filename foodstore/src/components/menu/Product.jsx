@@ -9,7 +9,7 @@ export function Product({product}) {
       <div className="card">
 
         <div className="product-image-container">
-          <img src={`images/product/${product.image}`} alt="" />
+          <img src={`${import.meta.env.BASE_URL}images/product/${product.image}`} alt="" />
         </div>
 
         <div className="product-detail">
