@@ -30,19 +30,19 @@ export function HeroSection() {
         >
           <SwiperSlide className='hero-slide'>
             <img loading='lazy' src="heroImage/rice.png" alt="Delicious Food 1" />
-            <div className="swiper-lazy-preloader"></div>
+            <div className="swiper-lazy-preloader lazy-preloader-container"></div>
           </SwiperSlide>
           <SwiperSlide className='hero-slide'>
             <img loading='lazy' src="heroImage/jellof.png" alt="Delicious Food 1" />
-            <div className="swiper-lazy-preloader"></div>
+            <div className="swiper-lazy-preloader lazy-preloader-container"></div>
           </SwiperSlide>
           <SwiperSlide className='hero-slide'>
             <img loading='lazy' src="heroImage/burger.png" alt="Delicious Food 1" />
-            <div className="swiper-lazy-preloader"></div>
+            <div className="swiper-lazy-preloader lazy-preloader-container"></div>
           </SwiperSlide>
           <SwiperSlide className='hero-slide'>
             <img loading='lazy' src="heroImage/drinks.png" alt="Delicious Food 1" />
-            <div className="swiper-lazy-preloader"></div>
+            <div className="swiper-lazy-preloader lazy-preloader-container"></div>
           </SwiperSlide>
 
         </Swiper>

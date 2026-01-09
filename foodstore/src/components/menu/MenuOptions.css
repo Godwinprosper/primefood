@@ -34,11 +34,15 @@
 
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .menu-btn-container {
     display: none;
   }
   .menu-select-container {
     display: flex;
+  }
+  .menu-select{
+    padding: 0.8rem 1.5rem;
+    font-size: 1.4rem;
   }
 }

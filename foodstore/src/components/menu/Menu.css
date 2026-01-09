@@ -25,6 +25,10 @@
   .menu-items-container {
     grid-template-columns: 1fr 1fr; 
   }
+  .menu-title{
+    font-size: 2rem; 
+    font-weight: bold;
+  }
 }
 
 @media (max-width: 30rem) {

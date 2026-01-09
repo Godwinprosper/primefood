@@ -70,7 +70,8 @@
   }
 
   .reservation-title {
-    font-size: 1.8rem;
+    font-size: 2rem; 
+    font-weight: bold;
   }
   .form-input {
     font-size: 1.4rem;
