@@ -5,6 +5,7 @@ import { SpecialOffer } from "./SpecialOffer";
 import { About } from "../../components/About.jsx";
 import {Reservation} from "../../components/Reservation.jsx"
 import { CustomerReview } from "./CustomerReview.jsx";
+import { Footer } from "../../components/Footer.jsx";
 import './HomePage.css'
 
 export function HomePage(){
@@ -23,6 +24,7 @@ export function HomePage(){
           <Reservation/>
         </div>
         <CustomerReview/>
+        <Footer/>
       </div>
     </>
   )

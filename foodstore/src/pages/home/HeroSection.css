@@ -1,20 +1,27 @@
-.hero-section{
+.hero-section {
   width: 100%;
-  padding:  5%;
+  padding: 2rem 5%;
   color: white;
   background-color: var(--default-BgColor);
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  align-items: center;
+  justify-content: center;
 }
-.hero-section h1{
+
+.hero-section h1 {
   font-size: 4rem;
   margin-bottom: 2rem;
 }
-.hero-section p{
+
+.hero-section p {
   font-size: 1.8rem;
   margin-bottom: 3rem;
   line-height: 1.5;
   max-width: 60rem;
 }
-.hero-section .shop-now-button{
+
+.hero-section .shop-now-button {
   padding: 1.5rem 3rem;
   background-color: var(--button-BgColor);
   border: none;
@@ -25,20 +32,43 @@
   cursor: pointer;
 }
 
+.swiper-hero-container {
+  width: 100% !important;
+}
+
+.hero-slide {
+  width: 100% !important;
+}
+
+.hero-slide img {
+  width: 80%;
+  object-fit: contain;
+}
+
 /* Breakpoint for large screens (1200px and below) */
 @media (max-width: 75rem) {
   .hero-section h1 {
     font-size: 3.5rem;
     margin-bottom: 1.8rem;
   }
+
   .hero-section p {
     font-size: 1.6rem;
     margin-bottom: 2.5rem;
     max-width: 50rem;
   }
+
   .hero-section .shop-now-button {
     font-size: 1.4rem;
     padding: 1.3rem 2.5rem;
+  }
+}
+
+/* 900px */
+@media (max-width: 56.25rem) {
+  .hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
   }
 }
 
@@ -46,16 +76,28 @@
 @media (max-width: 48rem) {
   .hero-section {
     padding: 10% 5%;
+    grid-template-columns: 1fr;
+    align-items: normal;
+    background-image: url('../../assets/chips.png');
+    background-repeat: no-repeat;
+    background-position: top;
   }
+
+  .swiper-section {
+    display: none;
+  }
+
   .hero-section h1 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
   }
+
   .hero-section p {
     font-size: 1.4rem;
     margin-bottom: 2rem;
-    max-width: none;
+    max-width: 40rem;
   }
+
   .hero-section .shop-now-button {
     font-size: 1.2rem;
     padding: 1rem 2rem;

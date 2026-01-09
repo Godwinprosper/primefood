@@ -51,21 +51,21 @@
 
 @media (max-width: 64rem) {
   .reservation-image-container {
-    height: 30rem; /* Reduce image height */
+    height: 30rem; 
   }
   .form-input {
-    font-size: 1.6rem; /* Smaller inputs */
+    font-size: 1.6rem; 
     padding: 0.7rem;
   }
   .submit-reservation {
-    font-size: 1.4rem; /* Smaller button */
+    font-size: 1.4rem; 
     padding: 0.7rem 1.5rem;
   }
 }
 
 @media (max-width: 48rem) {
   .reservation-container {
-    grid-template-columns: 1fr; /* Stack to single column */
+    grid-template-columns: 1fr; 
     gap: 1.5rem;
   }
 
@@ -81,13 +81,13 @@
     padding: 0.6rem 1.2rem;
   }
   .reservation-form {
-    gap: 1rem; /* Reduce gap */
+    gap: 1rem; 
   }
 }
 
 @media (max-width: 30rem) {
   .reservation-container {
-    padding: 1rem; /* Add padding if needed */
+    padding: 1rem; 
   }
   .reservation-image-container {
     display: none;
@@ -103,7 +103,7 @@
     padding: 0.5rem 1rem;
   }
   .reservation-time-date {
-    flex-direction: column; /* Stack time/date vertically */
+    flex-direction: column; 
     gap: 0.5rem;
   }
 }

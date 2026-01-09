@@ -69,27 +69,27 @@
 /* Responsive adjustments */
 @media (max-width: 64rem) {
   .product-image-container {
-    height: 18rem; /* Reduce image height */
+    height: 18rem; 
   }
   .product-detail {
-    padding: 0.8rem 1.5rem; /* Reduce padding */
+    padding: 0.8rem 1.5rem; 
   }
   .productName {
-    font-size: 1.8rem; /* Smaller title */
+    font-size: 1.8rem; 
   }
   .product-description {
-    font-size: 1.3rem; /* Smaller description */
+    font-size: 1.3rem; 
   }
   .product-price {
-    font-size: 1.6rem; /* Smaller price */
+    font-size: 1.6rem;
   }
   .productQuantity-selector {
-    font-size: 1.2rem; /* Smaller selector */
-    padding: 0.4rem; /* Reduce padding */
+    font-size: 1.2rem; 
+    padding: 0.4rem; 
   }
   .addToCart {
-    padding: 0.7rem 1.5rem; /* Smaller button */
-    font-size: 1.4rem; /* Smaller font */
+    padding: 0.7rem 1.5rem; 
+    font-size: 1.4rem; 
   }
 }
 

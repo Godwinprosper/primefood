@@ -45,7 +45,7 @@
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 64rem) {
   
   .about-image-container {
     height: 40rem; /* Reduce image height */
@@ -62,7 +62,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .about-section {
     grid-template-columns: 1fr; /* Stack to single column */
     gap: 1.5rem;
@@ -82,7 +82,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 30rem) {
   .about-section {
     padding: 1.5rem 5%; /* Reduce section padding */
   }

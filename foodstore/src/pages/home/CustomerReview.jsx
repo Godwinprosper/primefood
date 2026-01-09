@@ -33,14 +33,14 @@ export function CustomerReview() {
             1000: {
               slidesPerView: 3,
             },
-            
+
           }
         }
         className="swiper-reviews-container"
       >
         {customerReviews.map((review) => {
           return (
-            <SwiperSlide key={review.id} >
+            <SwiperSlide key={review.id} className='customer-review-slide'>
               <div className="review-card">
                 <p>
                   {review.review}
@@ -55,15 +55,6 @@ export function CustomerReview() {
           )
         })
         }
-        {/* <div className="review-card">
-          <p>
-            The food here is absolutely amazing! The flavors are rich and authentic. Highly recommend the pasta dishes."
-          </p>
-          <div className='reviewer-name'>Sarah L.</div>
-          <div className='profile-image-container'>
-            <img className='img' src="profile-pics.png" alt="" />
-          </div>
-        </div> */}
       </Swiper>
     </section>
   )
