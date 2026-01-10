@@ -14,7 +14,7 @@ export function Header() {
   }
   const closeSidebar = () => {
     setIsSidebarOpen(false);
-  } 
+  }
 
   return (
     <header>
@@ -29,7 +29,7 @@ export function Header() {
           <li><NavLink to="/" className="header-link">
             <span>Home</span>
           </NavLink></li>
-          <li><NavLink to="/" className="header-link">
+          <li><NavLink to="/menu" className="header-link">
             <span>Menu</span>
           </NavLink></li>
           <li><NavLink to="/" className="header-link">
@@ -59,12 +59,12 @@ export function Header() {
         </div>
       </div>
 
-{/* side-bar */}
+      {/* side-bar */}
 
-      <div className="sidebar-nav " style={{display: isSidebarOpen ? 'flex' : 'none'}}>
+      <div className="sidebar-nav " style={{ display: isSidebarOpen ? 'flex' : 'none' }}>
 
         <div className="Close-sidebar" onClick={closeSidebar}>
-          <img className="icon close-sidebar-icon" src={closeMenu } />
+          <img className="icon close-sidebar-icon" src={closeMenu} />
         </div>
 
         <ul>
@@ -73,10 +73,13 @@ export function Header() {
               <img className="icon" src={profileIcon} />
             </NavLink>
           </li>
-          <li><NavLink to="/" className="header-link">
-            <span>Home</span>
-          </NavLink></li>
-          <li><NavLink to="/" className="header-link">
+
+          <li>
+            <NavLink to="/" className="header-link">
+              <span>Home</span>
+            </NavLink>
+          </li>
+          <li><NavLink to="/menu" className="header-link">
             <span>Menu</span>
           </NavLink></li>
           <li><NavLink to="/" className="header-link">
@@ -86,7 +89,7 @@ export function Header() {
             <span>About</span>
           </NavLink></li>
         </ul>
-        
+
         <div >
           <NavLink to="/" className="header-link hide-on-mobile">
             <button className="order-button">Order now</button>
