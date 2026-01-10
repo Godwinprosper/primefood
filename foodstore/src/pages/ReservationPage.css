@@ -1,0 +1,13 @@
+.reservationPage-section{
+  min-height: 80vh;
+  width: 100%;
+  margin-top: 5rem;
+  padding: 4rem 15%;
+}
+
+@media (max-width:30rem){
+  .reservationPage-section .reservation-image-container {
+    display: initial;
+    height: 20rem;
+  }
+}

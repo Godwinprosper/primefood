@@ -32,7 +32,7 @@ export function Header() {
           <li><NavLink to="/menu" className="header-link">
             <span>Menu</span>
           </NavLink></li>
-          <li><NavLink to="/" className="header-link">
+          <li><NavLink to="/reservation" className="header-link">
             <span>Reservation</span>
           </NavLink></li>
           <li><NavLink to="/" className="header-link">
@@ -82,7 +82,7 @@ export function Header() {
           <li><NavLink to="/menu" className="header-link">
             <span>Menu</span>
           </NavLink></li>
-          <li><NavLink to="/" className="header-link">
+          <li><NavLink to="/reservation" className="header-link">
             <span>Reservation</span>
           </NavLink></li>
           <li><NavLink to="/" className="header-link">
