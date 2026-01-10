@@ -9,6 +9,6 @@ export const offers = [
     id: 2,
     title: "Free Delivery",
     discount: "40% off",
-    image: "images/specialOfferImages/full-chiken.png"
+    image: "images/specialOfferImages/fullchicken.png"
   }
 ]

@@ -28,7 +28,7 @@ export function About(){
         <button className='learn-more-btn'>Learn More</button>
       </div>
       <div className="about-image-container">
-        <img className='about-image' src="full-chiken.png" alt="About Us Food Image" />
+        <img className='about-image' src="fullchicken.png" alt="About Us Food Image" />
       </div>
     </div>
   )

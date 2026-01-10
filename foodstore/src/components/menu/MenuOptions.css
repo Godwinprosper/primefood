@@ -12,6 +12,10 @@
   border-radius: 0.6rem;
   color: rgb(34, 40, 49);
 }
+.menu-btn-container .checkedMenu{
+  color:white;
+  background-color:var(--default-BgColor);
+}
 .menu-select-container{
   display: none;
   justify-content: flex-end;
